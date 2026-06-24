@@ -17,3 +17,4 @@ print(f"Total da compra: R$ {total:.2f}")
 print(f"Quantidade de itens: {qtd_itens}")
 
 dinheiro = float(input("Valor recebido: R$ "))
+troco = dinheiro - total
