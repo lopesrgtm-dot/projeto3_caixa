@@ -8,4 +8,5 @@ while True:
     if valoritem <= 0:
         break
     
-
+    total = valoritem + total
+    print(total)
