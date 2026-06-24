@@ -3,5 +3,9 @@ print(" Caixa Aberto!")
 
 while True:
     print("Aguardando Item!")
-    float(input("Valor do item: R$"))
+    valoritem = float(input("Valor do item: R$"))
+    
+    if valoritem <= 0:
+        break
+    
 
