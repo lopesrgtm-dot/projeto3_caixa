@@ -10,3 +10,8 @@ while True:
     
     total = valoritem + total
     print(total)
+    
+
+    qtd_itens += 1
+
+print(f"Total da compra: R$ {total:.2f}")
