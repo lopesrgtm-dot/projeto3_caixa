@@ -1,4 +1,5 @@
 total = 0 
+qtd_itens = 0
 print(" Caixa Aberto!")
 
 while True:
@@ -10,7 +11,8 @@ while True:
     
     total = valoritem + total
     print(total)
-    qtd_itens = 0
     qtd_itens = qtd_itens +1
 
 print(f"Total da compra: R$ {total:.2f}")
+print(f"Quantidade de itens: {qtd_itens}")
+
