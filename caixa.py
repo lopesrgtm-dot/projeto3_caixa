@@ -23,7 +23,7 @@ print(f"Quantidade de itens: {qtd_itens}")
 dinheiro = float(input("Valor recebido: R$ "))
 troco = dinheiro - total
 
-if troco >= 0:
-    print(f"Troco: R$ {troco:.2f}")
-else:
+if troco < 0:
     print("Pagamento insuficiente!")
+else:
+    print(f"Troco: R${troco:.2f}")
