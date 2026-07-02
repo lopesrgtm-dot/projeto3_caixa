@@ -1,3 +1,7 @@
+def calcular_troco(valor_total, dinheiro_recebido):
+    troco = dinheiro_recebido - valor_total
+    return troco
+
 total = 0 
 qtd_itens = 0
 print(" Caixa Aberto!")
