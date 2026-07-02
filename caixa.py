@@ -1,4 +1,4 @@
-def calcular_troco(valor_total, dinheiro_recebido):
+def calcular_troco(valor_total,dinheiro_recebido):
     troco = dinheiro_recebido - valor_total
     return troco
 
